@@ -1,7 +1,7 @@
 Config = {}
 
-Config.KeyID = 0xD8F73058 -- U button
-Config.AtMissionText = "Press U to start"
+Config.KeyID = {['key'] = 0xD8F73058, ['name'] = 'U'} -- U button
+Config.AtMissionText = "Press "..Config.KeyID['name'].." to start"
 
 Config.D1 = {
 	["JobBlipName"] = "Job: Delivery",
