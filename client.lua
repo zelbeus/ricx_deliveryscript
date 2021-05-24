@@ -21,7 +21,7 @@ AddEventHandler('ricx_deliveryjob_start', function()
         if not IsPedOnMount(playerPed) then
         if IsMission == false then
             IsMission = true
-            local route = math.random(1,Config.D1MAXROUTE)
+            local route = math.random(1,#Config.D1DELIVERY)--Create a random int between 1 and the number of added deliveries at Config
             StartGpsMultiRoute(GetHashKey("COLOR_YELLOW"), true, true)
             MissionX,MissionY,MissionZ = Config.D1DELIVERY[route].CP.x, Config.D1DELIVERY[route].CP.y, Config.D1DELIVERY[route].CP.z
             AddPointToGpsMultiRoute(MissionX,MissionY,MissionZ)
