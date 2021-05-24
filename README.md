@@ -5,11 +5,11 @@
 
 # HOW-TO
 
-Player has to stand at the delivery job coords given in the Config. ["JobBlipCoords"]
+Player **has to** stand at the delivery job coords given in the Config. **["JobBlipCoords"]**
 
-Player must not have a weapon. Start the mission by pressing U ('Config.KeyID' By Default U, you can find more controls here: https://github.com/femga/rdr3_discoveries/tree/master/Controls) 
+Player **must not** have a weapon. Start the mission by pressing U ('Config.KeyID' **By Default** U, you can find more controls **here: https://github.com/femga/rdr3_discoveries/tree/master/Controls**) 
 
-Requirements:
+**Requirements:**
 [RedEM-RP](https://github.com/RedEM-RP/redem_roleplay)
 
 Use the config file and add new jobs, or locations to existing jobs
