@@ -89,7 +89,7 @@ Citizen.CreateThread(function()
                     local str = Citizen.InvokeNative(0xFA925AC00EB830B9, 10, "LITERAL_STRING", msg, Citizen.ResultAsLong())
                     Citizen.InvokeNative(0xFA233F8FE190514C, str)
                     Citizen.InvokeNative(0xE9990552DEC71600)
-                    if IsControlJustPressed(0, Config.KeyID) then
+                    if IsControlJustPressed(0, Config.KeyID['key']) then
                         TriggerEvent("ricx_deliveryjob_start")
                     end
                 end
@@ -137,7 +137,7 @@ Citizen.CreateThread(function()
                     local str = Citizen.InvokeNative(0xFA925AC00EB830B9, 10, "LITERAL_STRING", msg, Citizen.ResultAsLong())
                     Citizen.InvokeNative(0xFA233F8FE190514C, str)
                     Citizen.InvokeNative(0xE9990552DEC71600)
-                    if IsControlJustPressed(0, Config.KeyID) then
+                    if IsControlJustPressed(0, Config.KeyID['key']) then
                         SetGpsMultiRouteRender(false)
                         RemoveBlip(Missionblip)
                         DeleteObject(object1)
