@@ -12,5 +12,7 @@ Player **must not** have a weapon. Start the mission by pressing U ('Config.KeyI
 **Requirements:**
 [RedEM-RP](https://github.com/RedEM-RP/redem_roleplay)
 
+More on Discord (https://discord.gg/CcZ7QmHJWu)
+
 Use the config file and add new jobs, or locations to existing jobs
 ![alt text](https://i.ibb.co/DgX1102/rakodo.png)
