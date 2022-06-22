@@ -12,9 +12,9 @@ end
 RegisterServerEvent('ricx_deliveryjob_reward')
 AddEventHandler('ricx_deliveryjob_reward', function(reward,xp)
     local _source = source
+    local _reward = tonumber(reward)
     if framework == "redemrp" then
         TriggerEvent('redemrp:getPlayerFromId', _source, function(user)
-            local _reward = tonumber(reward)
             local _xp = tonumber(xp)
             user.addMoney(_reward)
             user.addXP(_xp)
